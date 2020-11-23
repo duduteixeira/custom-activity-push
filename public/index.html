@@ -25,61 +25,12 @@
 </head>
 
 <body>
-    <div align="center">
-        <h1>LinedTextArea Demo using JQuery</h1>
-        <p>Added a scrollable lined area to a standard TextArea control.</p>
-    </div>
-    <div style="width: 70%;margin: auto">
-        <textarea class="lined">.lined-textarea-container {
-    width: 100%;
-    height: 300px;
-    font-size: 14px;
-    border: 1px solid #c0c0c0;
-    box-sizing: border-box;
-}
+    <label for="story">Digite sua mensagem</label>
 
-.lined-textarea-container .lines {
-    float: left;
-    width: 50px;
-    height: 100%;
-    overflow: hidden;
-    box-sizing: inherit;
-}
-
-.lined-textarea-container .lines .linesContainer {
-    box-sizing: inherit;
-    position: relative;
-    padding-top: 2px;
-<style type="text/css">
-	
-	body{
-		background-color: #454545;
-		color: #ffcc00;
-		padding: 0;
-		margin: 0;
-		font-family: "BIZ UDPゴシック","BIZ UDPGothic","sans-serif";
-	}
-
-	h1,h2,h3,p{
-		margin: 0;
-	}
-
-	textarea{
-		background-color: #454545;
-		color: #ddd;
-		font-size: 13pt;
-		border-color: #888;
-		border-width: 1px;
-		border-collapse: collapse;
-		border-style: solid;
-		font-family: "BIZ UDPゴシック","BIZ UDPGothic","sans-serif";
-		margin: 1em;
-	}
-</style>
-</head>
-<body >
-	<p><h3>Text Area</h3></p>	
-	<textarea cols="60" rows="45"></textarea>
+<textarea id="story" name="story"
+          rows="5" cols="33">
+It was a dark and stormy night...
+</textarea>
 
 </body>
 
