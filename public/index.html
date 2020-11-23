@@ -50,65 +50,36 @@
     box-sizing: inherit;
     position: relative;
     padding-top: 2px;
-    border-right: 1px solid #c0c0c0;
-}
+<style type="text/css">
+	
+	body{
+		background-color: #454545;
+		color: #ffcc00;
+		padding: 0;
+		margin: 0;
+		font-family: "BIZ UDPゴシック","BIZ UDPGothic","sans-serif";
+	}
 
-.lined-textarea-container .lines .linesContainer .line {
-    width: 100%;
-    display: block;
-    color: #999999;
-    text-align: right;
-    padding: 0px 3px;
-    line-height: 18px;
-    box-sizing: inherit;
-}
+	h1,h2,h3,p{
+		margin: 0;
+	}
 
-.lined-textarea-container .lines .linesContainer .lineselect {
-    color: red;
-}
-
-.lined-textarea-container .lined-textarea {
-    float: left;
-    margin-left: 10px;
-    width: calc(100% - 60px);
-    height: 100%;
-    padding: 0;
-    box-sizing: inherit;
-    line-height: 18px;
-    border: 0;
-    resize: none;
-}
-
-.lined-textarea-container .lined-textarea:focus {
-    outline: none;
-}
-
-.lined-textarea::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-    background-color: #FFF;
-}
-
-.lined-textarea::-webkit-scrollbar {
-    width: 8px;
-    height: 8px;
-    background-color: #FFF;
-}
-
-.lined-textarea::-webkit-scrollbar-thumb {
-    background-color: #c0c0c0;
-}</textarea>
-    </div>
-    <div align="center">
-        <p>Visit <a href="http://www.techdining.com/plugins/jquery/lined-textarea" target="_blank">http://www.techdining.com/plugins/jquery/lined-textarea</a> for details and download</p>
-    </div>
-
-    <script>
-        $(function() {
-            $(".lined").linedTextArea({
-                selectedLine: 20,
-            });
-        });
-    </script>
+	textarea{
+		background-color: #454545;
+		color: #ddd;
+		font-size: 13pt;
+		border-color: #888;
+		border-width: 1px;
+		border-collapse: collapse;
+		border-style: solid;
+		font-family: "BIZ UDPゴシック","BIZ UDPGothic","sans-serif";
+		margin: 1em;
+	}
+</style>
+</head>
+<body >
+	<p><h3>Text Area</h3></p>	
+	<textarea cols="60" rows="45"></textarea>
 
 </body>
 
